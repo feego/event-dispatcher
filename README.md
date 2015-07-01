@@ -11,7 +11,8 @@ $ bower install feego/event-dispatcher
 #### Usage
 
 ```html
-<event-dispatcher event="tap" handler="{{$.elementId.eventHandler}}" detail="{{eventDetail}}">
+<event-dispatcher event="tap" handler="{{$.elementId.eventHandler}}" 
+                              detail="{{eventDetail}}">
 ```
 
 #### Compile ES2015 source files
